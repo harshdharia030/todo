@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskFlow | Professional Todo App</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<div class="header">
+
+<div>
+<h1>TaskFlow</h1>
+<p>Organize your day efficiently.</p>
+</div>
+
+<div id="date"></div>
+
+</div>
+
+<div class="input-box">
+
+<input type="text" id="taskInput" placeholder="Enter a task...">
+
+<button id="addBtn">
+<i class="fa-solid fa-plus"></i>
+Add
+</button>
+
+</div>
+
+<div class="search">
+
+<input type="text" id="search" placeholder="Search task...">
+
+</div>
+
+<div class="stats">
+
+<div class="box">
+<h2 id="total">0</h2>
+<span>Total</span>
+</div>
+
+<div class="box">
+<h2 id="completed">0</h2>
+<span>Completed</span>
+</div>
+
+<div class="box">
+<h2 id="pending">0</h2>
+<span>Pending</span>
+</div>
+
+</div>
+
+<ul id="taskList"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
